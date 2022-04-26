@@ -1,6 +1,9 @@
 fetch("/fbi.json")
   .then((data) => {
     return data.json();
+  headers: {
+         "Accept": "application/json"
+ }
   })
   .then((users) => {
     // console.log(users);
