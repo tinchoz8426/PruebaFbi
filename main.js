@@ -1,10 +1,7 @@
 fetch("/fbi.json")
   .then((data) => {
     return data.json();
-  method: 'POST',
-  headers: {
-         "Accept": "application/json"
- }
+  method: 'POST'
   })
   .then((users) => {
     // console.log(users);
