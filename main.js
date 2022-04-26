@@ -1,4 +1,4 @@
-fetch("/fbi.json")
+fetch("fbi.json")
   .then((data) => {
     return data.json();
   method: 'POST'
